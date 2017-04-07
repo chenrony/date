@@ -1,0 +1,19 @@
+<!doctype html>
+<html ng-app="myApp">
+  <head>
+   <script src="angular.min.js"></script>
+   <link rel="stylesheet" href="01.css">
+  </head>
+  <body>
+    <div class="container">
+      <div ng-controller="MainController">
+         <div id="datetime">
+           <h1>{{date.raw|date:'HH mm ss'}}</h1>
+           <h2>{{date.raw|date:'dd MMM yyyy'}}</h2>
+         </div>
+       </div>
+     </div>
+     <script src="01.js"></script>
+   </body>
+</html>
+           
